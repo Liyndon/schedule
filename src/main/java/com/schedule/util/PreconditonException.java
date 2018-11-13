@@ -1,0 +1,1 @@
+package com.schedule.util;/** * Created by demopoo on 2016/11/26. * 参数异常类 */public class PreconditonException extends RuntimeException {    public PreconditonException(){super();}    public PreconditonException(String errorMessage){        super(errorMessage);    }}
